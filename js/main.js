@@ -368,21 +368,6 @@ function renderProducts(products) {
         container.innerHTML += productHtml;
     });
 
-    document.querySelectorAll('.btn_add_cart').forEach(btn => {
-        let newBtn = btn.cloneNode(true);
-        btn.parentNode.replaceChild(newBtn, btn);
-        
-        newBtn.addEventListener("click", () => {
-            let productId = newBtn.getAttribute('data-id');
-            let product = products.find(prod => prod.id === productId);
-            if (product) {
-                addToCart(product.id, product.name, product.price, product.img);
-                newBtn.classList.add("active");
-                newBtn.innerHTML = `<i class="fa-solid fa-cart-shopping"></i> Item in cart`;
-            }
-        });
-    });
-
     const cart = JSON.parse(localStorage.getItem('cart')) || [];
     cart.forEach(item => {
         updateButtonsState(item.id, true);
@@ -412,6 +397,12 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 });
 
+// Update favorites counter in navbar
+function updateFavCount() {
+    let favs = JSON.parse(localStorage.getItem('favorites')) || [];
+    document.querySelectorAll('.count_favourite').forEach(el => el.innerText = favs.length);
+}
+
 // Toggle favorite product functionality
 window.toggleFavorite = function(element, productId) {
     let favs = JSON.parse(localStorage.getItem('favorites')) || [];
@@ -430,4 +421,10 @@ window.toggleFavorite = function(element, productId) {
     }
     
     localStorage.setItem('favorites', JSON.stringify(favs));
+    updateFavCount();
 };
+
+// Init favorites counter on page load
+document.addEventListener('DOMContentLoaded', () => {
+    updateFavCount();
+});
