@@ -21,6 +21,9 @@
 }
 body{
     padding-top: 320px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 span{
@@ -536,6 +539,7 @@ header .bottom_header .nav_links li.active a {
     align-items: center;
     justify-content: center;
     transition: 0.3s;
+    flex-shrink: 0;
 }
 
 .product .icons .icon_product:hover{
@@ -554,6 +558,8 @@ header .bottom_header .nav_links li.active a {
     background: var(--main_color);
     display: flex;
     align-items: center;
+    justify-content: center;
+    flex-grow: 1;
     gap: 5px;
     color: var(--white_color);
     padding: 5px 10px;
@@ -618,6 +624,7 @@ header .bottom_header .nav_links li.active a {
 footer {
     background: var(--color_heading);
     background: #000000;
+    margin-top: auto;
 }
 footer .container {
     display: flex;
