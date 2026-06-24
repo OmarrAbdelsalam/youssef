@@ -186,7 +186,7 @@ document.addEventListener('submit', (e) => {
             };
 
             let newOrder = {
-                id: 'ORD-' + Math.floor(Math.random() * 10000),
+                id: 'ORD-' + Date.now().toString(36).toUpperCase(),
                 date: new Date().toLocaleString(),
                 customer: customerInfo,
                 items: cartToSave,

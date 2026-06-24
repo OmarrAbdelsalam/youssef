@@ -127,12 +127,12 @@ function closeOrderModal() {
 }
 
 // Close modal when clicking outside
-window.onclick = function(event) {
+window.addEventListener('click', function(event) {
     let modal = document.getElementById('order-modal');
     if (event.target == modal) {
         closeOrderModal();
     }
-}
+});
 
 function loadDummyProducts() {
     let storedProducts = localStorage.getItem('products');
