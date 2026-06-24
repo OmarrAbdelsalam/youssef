@@ -1,0 +1,2318 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>العياشي ستور طنطا | El 3yashi Store Tanta</title>
+        
+        <!-- SEO Meta Tags -->
+        <meta name="description" content="العياشي ستور طنطا - El 3yashi Store Tanta. Shop the best clothing, T-shirts, hoodies, pants, and abayas at El 3yashi Store in Tanta. Discover hot deals and up to 80% off.">
+        <meta name="keywords" content="العياشي ستور طنطا, محل العياشي طنطا, ملابس طنطا, El 3yashi Store Tanta, clothing, fashion, t-shirts, hoodies, pants, abayas, online shopping">
+        <meta name="author" content="El 3yashi Store Tanta">
+        
+        <!-- Open Graph for Social Media -->
+        <meta property="og:title" content="العياشي ستور طنطا | El 3yashi Store">
+        <meta property="og:description" content="العياشي ستور طنطا - تسوق أفضل الملابس وأحدث الموديلات. Shop the best clothing at El 3yashi Store in Tanta.">
+        <meta property="og:type" content="website">
+
+        <link rel="icon" href="assets/images/12.jpg">
+
+         <!-- Link Swiper's CSS -->
+         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <!-- file css -->
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/dashboard.css">
+    </head>
+    <body>
+
+
+             <div class="cart">
+                 <div class="top_cart">
+                      <h3>Cart Items : <span class="Count_item_cart">0</span></h3>
+                      <span onclick="open_close_cart()" class="close_cart"><i class="fa-regular fa-circle-xmark"></i></span>
+
+
+                 </div>
+                 <div class="items_in_cart" id="cart_items">
+
+        <div class="item_cart">
+            <img src="assets/images/60.jpg" alt="">
+            <div class="content">
+                <h4>The perfect fit for your everyday adventures..</h4>
+                <p class="price_cart">800LE</p>
+                <div class="quantity_control">
+                    <button class="decrease_quantity">-</button>
+                    <span class="quantity">3</span>
+                    <button class="Increase_quantity">+</button>
+                </div>
+            </div>
+            <button class="delete_item"><i class="fa-solid fa-trash-can"></i></button>
+        </div>
+
+
+
+
+         <div class="item_cart">
+            <img src="assets/images/45.jpg" alt="">
+            <div class="content">
+                <h4>Don’t just follow trends, set them...</h4>
+                <p class="price_cart">800LE</p>
+                <div class="quantity_control">
+                    <button class="decrease_quantity">-</button>
+                    <span class="quantity">3</span>
+                    <button class="Increase_quantity">+</button>
+                </div>
+            </div>
+            <button class="delete_item"><i class="fa-solid fa-trash-can"></i></button>
+        </div>
+
+
+
+        <div class="item_cart">
+            <img src="assets/images/18.jpg" alt="">
+            <div class="content">
+                <h4>Your search for the perfect outfit ends here....</h4>
+                <p class="price_cart">400LE</p>
+                <div class="quantity_control">
+                    <button class="decrease_quantity">-</button>
+                    <span class="quantity">3</span>
+                    <button class="Increase_quantity">+</button>
+                </div>
+            </div>
+            <button class="delete_item"><i class="fa-solid fa-trash-can"></i></button>
+        </div>
+
+
+
+    
+
+                 </div>
+
+                  <div class="bottom_cart">
+                      <div class="total">
+                         <p>subtotal</p>
+                         <p class="price_cart_total" id="subtotal_price">0 LE</p>
+                      </div>
+                     <div class="button_cart">
+                        <a href="#" onclick="navigateTo('checkout'); return false;" class="btn_cart btn">Checkout</a>
+                        <span onclick="open_close_cart()" class="btn_cart trans_bg btn">Shop More</span>
+                     </div>
+                  </div>
+
+                                
+             </div>
+
+    
+
+
+
+        
+        <header id="main-header">
+
+
+            <div class="top_header">
+           <div class="container">
+           <a href="#" class="logo"><img src="assets/images/12.jpg"></a>
+
+            <form action="" class="search_box">
+
+
+                  <div class="select_box">
+                  <select id="category">
+                    <option value="T-shirts">T-shirts</option>
+                    <option value="Shirts">Abayas</option>
+                    <option value="Hoodies & Sweatshirts">Hoodies</option>
+                    <option value="Skirts">Cool Kids & Youth</option>
+                    <option value="Pajamas/Sleepwear">pants</option>
+
+                  </select>
+                  </div>
+
+                 <input type="text" name="search" id="search" placeholder="search for products" required>
+                 
+                   <button type="submit">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                  </button>
+            </form>
+
+              <div class="header_icons">
+              <div class="icon">
+                 <a href="#">
+                    <i class="fa-regular fa-heart btn_add_wishlist" data-id="101"></i>
+                    <span class="count count_favourite">0</span>
+                </a>
+              </div>
+                      <div onclick="open_close_cart()" class="icon">
+                          <i class="fa-solid fa-basket-shopping"></i>
+                          <span class="count count_item_header">0</span>
+                      </div>
+
+              </div>
+            </div>
+         </div>
+
+
+
+          <div class="bottom_header">
+         <div class="container">
+         <nav class="nav">
+                <div class="category_nav">
+                 <div class="category_btn">
+                 <i class="fa-solid fa-list"></i>
+                <p>Browse Category</p>
+                <i class="fa-solid fa-chevron-down"></i>
+                  </div>
+                   
+
+                    <div class="category_nav_list">
+                      <a href="#">Men’s Clothing</a>
+                      <a href="#">Women’s Clothing</a>
+                      <a href="#">Sportswear</a>
+                      <a href="#">Kids’ Clothing</a>
+                      <a href="#">Formal Wea</a>
+                      <a href="#">Accessories</a>
+                      <a href="#">Home Wear</a>
+                    </div>
+
+              </div>
+
+               <ul class="nav_links">
+                          <li class="active"><a href="#">Home</a></li>
+                          <li><a href="#">About</a></li>
+                          <li><a href="#">Accesories</a></li>
+                          <li><a href="#">Blog</a></li>
+                          <li><a href="#">Contact</a></li>
+               </ul>
+        </nav>
+        <div class="login_signup_btns">
+           <a href="#" class="btn" onclick="openAdminLogin(event)">Admin Login <i class="fa-solid fa-right-to-bracket"></i></a>
+           <a href="#" class="btn">Sign Up <i class="fa-solid fa-user-plus"></i></a>
+        </div>
+
+    </div>
+</div>
+        </header>
+
+<div id="home-view">
+
+
+
+
+        
+
+        
+
+             <div class="slider">
+                <div class="container">
+                
+                    <!-- swiper -->
+                   <div class="slide-swp mySwiper">
+
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                             <a href="#"><img src="assets/images/1.jpeg" alt=""></a>
+                        </div>
+                        <div class="swiper-slide">
+                             <a href="#"><img src="assets/images/3.png" alt=""></a>
+                        </div>
+                        
+                      </div>
+                      <div class="swiper-pagination"></div>
+   
+
+
+                   </div>
+
+                    <div class="banner_2">
+                      <a href="#"> <img src="assets/images/2.png"></a>
+                    </div>
+
+
+                </div>
+              </div>
+
+
+
+
+            <div class="banners_4">
+                  <div class="container">
+
+
+
+
+
+
+                    <div class="box">
+                      <a href="#" class="link_btn"></a>
+                      <img src="assets/images/5.jpeg" alt="">
+                      <div class="text"></div>
+                      <br>
+                      <h5>Classic Drape</h5>
+                      <h5>deals on this</h5>
+                      <div class="Sale">
+                        <p>Up <br> To</p>
+                        <span>70%</span>
+                     
+                      </div>
+                      <h6>Shop Now</h6>
+                  </div>
+
+
+
+                      <div class="box">
+                      <a href="#" class="link_btn"></a>
+                      <img src="assets/images/6.jpeg" alt="">
+                      <div class="text"></div>
+                      <br>
+                      <br>
+                      <h5>Soft Statement</h5>
+                      <h5>deals on this</h5>
+                      <div class="Sale">
+                        <p>Up <br> To</p>
+                        <span>50%</span>
+                        
+                      </div>
+                      <h6>Shop Now</h6>
+                  </div>
+
+
+
+
+                     <div class="box">
+                      <a href="#" class="link_btn"></a>
+                      <img src="assets/images/7.jpeg" alt="">
+                      <div class="text"></div>
+                      <br>
+                      <br>
+                      <h5>Effortless Chic</h5>
+                      <h5>deals on this</h5>
+                      <div class="Sale">
+                        <p>Up <br> To</p>
+                        <span>80%</span>
+                     
+                      </div>
+                      <h6>Shop Now</h6>
+                  </div>
+
+
+
+
+                    <div class="box">
+                      <a href="#" class="link_btn"></a>
+                      <img src="assets/images/8.jpeg" alt="">
+                      <div class="text"></div>
+                      <br>
+                      <br>
+                      <h5>Quiet Elegance</h5>
+                      <h5>eals on this</h5>
+                      <div class="Sale">
+                        <p>Up <br> To</p>
+                        <span>60%</span>
+                      
+                      </div>
+                      <h6>Shop Now</h6>
+                  </div>
+
+
+
+
+                      <div class="box">
+                      <a href="#" class="link_btn"></a>
+                      <img src="assets/images/9.jpeg" alt="">
+                      <div class="text"></div>
+                      <br>
+                      <br>
+                      <h5>Velocity Vibe</h5>
+                      <h5>deals on this</h5>
+                      <div class="Sale">
+                        <p>Up <br> To</p>
+                        <span>40%</span>
+                      
+                      </div>
+                      <h6>Shop Now</h6>
+                  </div>
+
+
+
+
+                      <div class="box">
+                      <a href="#" class="link_btn"></a>
+                      <img src="assets/images/10.jpeg" alt="">
+                      <div class="text"></div>
+                      <br>
+                      <h5>Pure Coverage</h5>
+                      <h5>deals on this</h5>
+                      <div class="Sale">
+                        <p>Up <br> To</p>
+                        <span>45%</span>
+                      
+                      
+                      </div>
+                      <h6>Shop Now</h6>
+                  </div>
+
+
+
+
+                  
+                      <div class="box">
+                      <a href="#" class="link_btn"></a>
+                      <img src="assets/images/11.jpeg" alt="">
+                      <div class="text"></div>
+                      <h5>Quiet Elegance</h5>
+                      <h5>deals on this</h5>
+                      <div class="Sale">
+                        <p>Up <br> To</p>
+                        <span>30%</span>
+                      
+                      </div>
+                      <h6>Shop Now</h6>
+                  </div>
+
+
+                </div>
+            </div>
+
+            
+
+
+
+        <div class="slider_products slide">
+                               <div class="container">
+                               <div class="slide_product mySwiper">
+                                <div class="top_slide">
+                                  <h2><i class="fa-solid fa-tags"></i> Hot Deals</h2>
+                                </div>
+            
+                            <div class="products swiper-wrapper" id="swiper_items_sale">
+                
+
+                 <div class="swiper-slide product">
+                            <span class="sale_present">50%</span>
+                            <div class="img_product">
+                              <a href="#"><img src="assets/images/18.jpg" alt="" /></a>
+                            </div>
+                    
+                           <div class="stars">
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                            </div>
+                    
+                        <p class="name_product"><a href="#">Elegance is the only beauty that never fades....</a></p>
+                    
+                        <div class="price">
+                          <p><span>400LE</span></p>
+                          <p class="old_price">550LE</p> 
+                        </div>
+                    
+                    <div class="icons">
+                          <span class="btn_add_cart"data-id="hot1" >
+                            <i class="fa-solid fa-cart-shopping"></i> add to cart
+                          </span>
+                         <span class="icon_product"><i class="fa-regular fa-heart"></i></span>
+                    </div>
+                </div>
+
+
+
+                 <div class="swiper-slide product">
+                            <span class="sale_present">65%</span>
+                            <div class="img_product">
+                              <a href="#"><img src="assets/images/21.jpg" alt="" /></a>
+                            </div>
+                    
+                           <div class="stars">
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                            </div>
+                    
+                        <p class="name_product"><a href="#">The hoodie you’ll never want to take off....</a></p>
+                    
+                        <div class="price">
+                          <p><span>170LE</span></p>
+                          <p class="old_price">220LE</p> 
+                        </div>
+                    
+                    <div class="icons">
+                          <span class="btn_add_cart"data-id="hot2" >
+                            <i class="fa-solid fa-cart-shopping"></i> add to cart
+                          </span>
+                         <span class="icon_product"><i class="fa-regular fa-heart"></i></span>
+                    </div>
+                </div>
+
+
+
+                 <div class="swiper-slide product">
+                            <span class="sale_present">75%</span>
+                            <div class="img_product">
+                              <a href="#"><img src="assets/images/13.jpg" alt="" /></a>
+                            </div>
+                    
+                           <div class="stars">
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                            </div>
+                    
+                        <p class="name_product"><a href="#">The perfect fit for your everyday adventures....</a></p>
+                    
+                        <div class="price">
+                          <p><span>100LE</span></p>
+                          <p class="old_price">150LE</p> 
+                        </div>
+                    
+                    <div class="icons">
+                          <span class="btn_add_cart"data-id="hot3" >
+                            <i class="fa-solid fa-cart-shopping"></i> add to cart
+                          </span>
+                         <span class="icon_product"><i class="fa-regular fa-heart"></i></span>
+                    </div>
+                </div>
+
+
+                 <div class="swiper-slide product">
+                            <span class="sale_present">25%</span>
+                            <div class="img_product">
+                              <a href="#"><img src="assets/images/22.jpg" alt="" /></a>
+                            </div>
+                    
+                           <div class="stars">
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                            </div>
+                    
+                        <p class="name_product"><a href="#">Effortless style for the urban explorer....</a></p>
+                    
+                        <div class="price">
+                          <p><span>300LE</span></p>
+                          <p class="old_price">375LE</p> 
+                        </div>
+                    
+                    <div class="icons">
+                          <span class="btn_add_cart"data-id="hot4" >
+                            <i class="fa-solid fa-cart-shopping"></i> add to cart
+                          </span>
+                         <span class="icon_product"><i class="fa-regular fa-heart"></i></span>
+                    </div>
+                </div>
+
+
+                 <div class="swiper-slide product">
+                            <span class="sale_present">35%</span>
+                            <div class="img_product">
+                              <a href="#"><img src="assets/images/32.jpg" alt="" /></a>
+                            </div>
+                    
+                           <div class="stars">
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                            </div>
+                    
+                        <p class="name_product"><a href="#">A blend of tradition and high fashion....</a></p>
+                    
+                        <div class="price">
+                          <p><span>200LE</span></p>
+                          <p class="old_price">250LE</p> 
+                        </div>
+                    
+                    <div class="icons">
+                          <span class="btn_add_cart"data-id="hot5" >
+                            <i class="fa-solid fa-cart-shopping"></i> add to cart
+                          </span>
+                         <span class="icon_product"><i class="fa-regular fa-heart"></i></span>
+                    </div>
+                </div>
+
+
+                 <div class="swiper-slide product">
+                            <span class="sale_present">80%</span>
+                            <div class="img_product">
+                              <a href="#"><img src="assets/images/31.jpg" alt="" /></a>
+                            </div>
+                    
+                           <div class="stars">
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                            </div>
+                    
+                        <p class="name_product"><a href="#">Peak performance meets ultimate comfort....</a></p>
+                    
+                        <div class="price">
+                          <p><span>250 LE</span></p>
+                          <p class="old_price">350LE</p> 
+                        </div>
+                    
+                    <div class="icons">
+                          <span class="btn_add_cart" data-id="hot6">
+                            <i class="fa-solid fa-cart-shopping"></i> add to cart
+                          </span>
+                         <span class="icon_product"><i class="fa-regular fa-heart"></i></span>
+                    </div>
+                </div>
+
+                        <div class="swiper-slide product">
+                            <span class="sale_present">70%</span>
+                            <div class="img_product">
+                              <a href="#"><img src="assets/images/30.jpg" alt="" /></a>
+                            </div>
+                    
+                           <div class="stars">
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                            </div>
+                    
+                        <p class="name_product"><a href="#">Rugged outside, refined inside....</a></p>
+                    
+                        <div class="price">
+                          <p><span>500LE</span></p>
+                          <p class="old_price">650LE</p> 
+                        </div>
+                    
+                    <div class="icons">
+                          <span class="btn_add_cart" data-id="hot7">
+                            <i class="fa-solid fa-cart-shopping"></i> add to cart
+                          </span>
+                         <span class="icon_product"><i class="fa-regular fa-heart"></i></span>
+                    </div>
+                </div>
+
+
+                <div class="swiper-slide product">
+                            <span class="sale_present">80%</span>
+                            <div class="img_product">
+                              <a href="#"><img src="assets/images/36.jpg" alt="" /></a>
+                            </div>
+                    
+                           <div class="stars">
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                            </div>
+                    
+                        <p class="name_product"><a href="#">Luxury you can feel, style you can see....</a></p>
+                    
+                        <div class="price">
+                          <p><span>550LE</span></p>
+                          <p class="old_price">650LE</p> 
+                        </div>
+                    
+                    <div class="icons">
+                          <span class="btn_add_cart " data-id="hot8">
+                            <i class="fa-solid fa-cart-shopping"></i> add to cart
+                          </span>
+                         <span class="icon_product"><i class="fa-regular fa-heart"></i></span>
+                    </div>
+                </div>
+
+                <div class="swiper-slide product">
+                            <span class="sale_present">86%</span>
+                            <div class="img_product">
+                              <a href="#"><img src="assets/images/35.jfif" alt="" /></a>
+                            </div>
+                    
+                           <div class="stars">
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                            </div>
+                    
+                        <p class="name_product"><a href="#">Iconic style for the modern generation....</a></p>
+                    
+                        <div class="price">
+                          <p><span>450LE</span></p>
+                          <p class="old_price">500LE</p> 
+                        </div>
+                    
+                    <div class="icons">
+                          <span class="btn_add_cart " data-id="hot9">
+                            <i class="fa-solid fa-cart-shopping"></i> add to cart
+                          </span>
+                         <span class="icon_product"><i class="fa-regular fa-heart"></i></span>
+                    </div>
+                </div>
+
+                </div>
+            <div class="swiper-pagination"></div> 
+            <div class="swiper-button-next btn_Swip"></div>
+            <div class="swiper-button-prev btn_Swip"></div>
+            
+        </div>
+    </div>
+         </div>
+
+
+
+             <div class="banners">
+                 <div class="container">
+                    <div class="banners_boxs banner_2_img">
+                        <a href="#" class="box"><img src="assets/images/37.jpg" alt=""></a>
+                        <a href="#" class="box"><img src="assets/images/39.jpg" alt=""></a>
+                    </div>
+                 </div>
+            </div>
+
+
+
+
+        <div class="slider_products slide">
+                               <div class="container">
+                               <div class="slide_product mySwiper">
+                                <div class="top_slide">
+                                  <h2><i class="fa-solid fa-tags"></i>pants</h2>
+                                </div>
+            
+                            <div class="products swiper-wrapper" id="swiper_pants">
+                
+
+                 <div class="swiper-slide product">
+                            <span class="sale_present">55%</span>
+                            <div class="img_product">
+                              <a href="#"><img src="assets/images/40.jpg" alt="" /></a>
+                            </div>
+                    
+                           <div class="stars">
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                            </div>
+                    
+                        <p class="name_product"><a href="#">The perfect pair of jeans is a life changer....</a></p>
+                    
+                        <div class="price">
+                          <p><span>400LE</span></p>
+                          <p class="old_price">500LE</p> 
+                        </div>
+                    
+                    <div class="icons">
+                          <span class="btn_add_cart" data-id="h1">
+                            <i class="fa-solid fa-cart-shopping"></i> add to cart
+                          </span>
+                         <span class="icon_product"><i class="fa-regular fa-heart"></i></span>
+                    </div>
+                </div>
+
+
+
+                 <div class="swiper-slide product">
+                            <span class="sale_present">66%</span>
+                            <div class="img_product">
+                              <a href="#"><img src="assets/images/41.jpg" alt="" /></a>
+                            </div>
+                    
+                           <div class="stars">
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                            </div>
+                    
+                        <p class="name_product"><a href="#">Denim that fits like a second skin.....</a></p>
+                    
+                        <div class="price">
+                          <p><span>220LE</span></p>
+                          <p class="old_price">300LE</p> 
+                        </div>
+                    
+                    <div class="icons">
+                          <span class="btn_add_cart"data-id="h2" >
+                            <i class="fa-solid fa-cart-shopping"></i> add to cart
+                          </span>
+                         <span class="icon_product"><i class="fa-regular fa-heart"></i></span>
+                    </div>
+                </div>
+
+
+
+                 <div class="swiper-slide product">
+                            <span class="sale_present">77%</span>
+                            <div class="img_product">
+                              <a href="#"><img src="assets/images/42.jpg" alt="" /></a>
+                            </div>
+                    
+                           <div class="stars">
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                            </div>
+                    
+                        <p class="name_product"><a href="#">Your search for the ultimate fit ends here.....</a></p>
+                    
+                        <div class="price">
+                          <p><span>450LE</span></p>
+                          <p class="old_price">500LE</p> 
+                        </div>
+                    
+                    <div class="icons">
+                          <span class="btn_add_cart" data-id="h3">
+                            <i class="fa-solid fa-cart-shopping"></i> add to cart
+                          </span>
+                         <span class="icon_product"><i class="fa-regular fa-heart"></i></span>
+                    </div>
+                </div>
+
+
+                 <div class="swiper-slide product">
+                            <span class="sale_present">35%</span>
+                            <div class="img_product">
+                              <a href="#"><img src="assets/images/43.jpg" alt="" /></a>
+                            </div>
+                    
+                           <div class="stars">
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                            </div>
+                    
+                        <p class="name_product"><a href="#">From morning coffee to late-night vibes in our premium denim.....</a></p>
+                    
+                        <div class="price">
+                          <p><span>700LE</span></p>
+                          <p class="old_price">900LE</p> 
+                        </div>
+                    
+                    <div class="icons">
+                          <span class="btn_add_cart" data-id="h4" >
+                            <i class="fa-solid fa-cart-shopping"></i> add to cart
+                          </span>
+                         <span class="icon_product"><i class="fa-regular fa-heart"></i></span>
+                    </div>
+                </div>
+
+
+                 <div class="swiper-slide product">
+                            <span class="sale_present">85%</span>
+                            <div class="img_product">
+                              <a href="#"><img src="assets/images/45.jpg" alt="" /></a>
+                            </div>
+                    
+                           <div class="stars">
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                            </div>
+                    
+                        <p class="name_product"><a href="#">Good jeans, good mood, good day.....</a></p>
+                    
+                        <div class="price">
+                          <p><span>800LE</span></p>
+                          <p class="old_price">950LE</p> 
+                        </div>
+                    
+                    <div class="icons">
+                          <span class="btn_add_cart" data-id="h5">
+                            <i class="fa-solid fa-cart-shopping"></i> add to cart
+                          </span>
+                         <span class="icon_product"><i class="fa-regular fa-heart"></i></span>
+                    </div>
+                </div>
+
+
+                 <div class="swiper-slide product">
+                            <span class="sale_present">80%</span>
+                            <div class="img_product">
+                              <a href="#"><img src="assets/images/46.jpg" alt="" /></a>
+                            </div>
+                    
+                           <div class="stars">
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                            </div>
+                    
+                        <p class="name_product"><a href="#">Softness you have to feel to believe.....</a></p>
+                    
+                        <div class="price">
+                          <p><span>1000LE</span></p>
+                          <p class="old_price">1200LE</p> 
+                        </div>
+                    
+                    <div class="icons">
+                          <span class="btn_add_cart " data-id="h6">
+                            <i class="fa-solid fa-cart-shopping"></i> add to cart
+                          </span>
+                         <span class="icon_product"><i class="fa-regular fa-heart"></i></span>
+                    </div>
+                </div>
+
+                        <div class="swiper-slide product">
+                            <span class="sale_present">70%</span>
+                            <div class="img_product">
+                              <a href="#"><img src="assets/images/47.jpg" alt="" /></a>
+                            </div>
+                    
+                           <div class="stars">
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                            </div>
+                    
+                        <p class="name_product"><a href="#">Relaxation has never looked this good.....</a></p>
+                    
+                        <div class="price">
+                          <p><span>500LE</span></p>
+                          <p class="old_price">650LE</p> 
+                        </div>
+                    
+                    <div class="icons">
+                          <span class="btn_add_cart "data-id="h7" >
+                            <i class="fa-solid fa-cart-shopping"></i> add to cart
+                          </span>
+                         <span class="icon_product"><i class="fa-regular fa-heart"></i></span>
+                    </div>
+                </div>
+
+
+                <div class="swiper-slide product">
+                            <span class="sale_present">80%</span>
+                            <div class="img_product">
+                              <a href="#"><img src="assets/images/50.jpg" alt="" /></a>
+                            </div>
+                    
+                           <div class="stars">
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                            </div>
+                    
+                        <p class="name_product"><a href="#">Sleep in them, gym in them, live in them.....</a></p>
+                    
+                        <div class="price">
+                          <p><span>550LE</span></p>
+                          <p class="old_price">650LE</p> 
+                        </div>
+                    
+                    <div class="icons">
+                          <span class="btn_add_cart " data-id="h8">
+                            <i class="fa-solid fa-cart-shopping"></i> add to cart
+                          </span>
+                         <span class="icon_product"><i class="fa-regular fa-heart"></i></span>
+                    </div>
+                </div>
+
+                <div class="swiper-slide product">
+                            <span class="sale_present">86%</span>
+                            <div class="img_product">
+                              <a href="#"><img src="assets/images/47.jpg" alt="" /></a>
+                            </div>
+                    
+                           <div class="stars">
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                            </div>
+                    
+                        <p class="name_product"><a href="#">Upgrade your lounge game.....</a></p>
+                    
+                        <div class="price">
+                          <p><span>450LE</span></p>
+                          <p class="old_price">500LE</p> 
+                        </div>
+                    
+                    <div class="icons">
+                          <span class="btn_add_cart "data-id="h9" >
+                            <i class="fa-solid fa-cart-shopping"></i> add to cart
+                          </span>
+                         <span class="icon_product"><i class="fa-regular fa-heart"></i></span>
+                    </div>
+                </div>
+
+                </div>
+            <div class="swiper-pagination"></div> 
+            <div class="swiper-button-next btn_Swip"></div>
+            <div class="swiper-button-prev btn_Swip"></div>
+            
+        </div>
+    </div>
+         </div>
+
+
+
+
+
+
+
+
+
+
+                 <div class="slider_products slide">
+                               <div class="container">
+                               <div class="slide_product mySwiper">
+                                <div class="top_slide">
+                                  <h2><i class="fa-solid fa-tags"></i>Hoodies</h2>
+                                </div>
+            
+                            <div class="products swiper-wrapper" id="swiper_Hoodies">
+                
+
+                 <div class="swiper-slide product">
+                            <span class="sale_present">95%</span>
+                            <div class="img_product">
+                              <a href="#"><img src="assets/images/51.jpg" alt="" /></a>
+                            </div>
+                    
+                           <div class="stars">
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                            </div>
+                    
+                        <p class="name_product"><a href="#">Streetwear soul, hoodie goal.....</a></p>
+                    
+                        <div class="price">
+                          <p><span>450LE</span></p>
+                          <p class="old_price">500LE</p> 
+                        </div>
+                    
+                    <div class="icons">
+                          <span class="btn_add_cart"data-id="p1" >
+                            <i class="fa-solid fa-cart-shopping"></i> add to cart
+                          </span>
+                         <span class="icon_product"><i class="fa-regular fa-heart"></i></span>
+                    </div>
+                </div>
+
+
+
+                 <div class="swiper-slide product">
+                            <span class="sale_present">90%</span>
+                            <div class="img_product">
+                              <a href="#"><img src="assets/images/52.jpg" alt="" /></a>
+                            </div>
+                    
+                           <div class="stars">
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                            </div>
+                    
+                        <p class="name_product"><a href="#">The ultimate urban uniform......</a></p>
+                    
+                        <div class="price">
+                          <p><span>250LE</span></p>
+                          <p class="old_price">300LE</p> 
+                        </div>
+                    
+                    <div class="icons">
+                          <span class="btn_add_cart" data-id="p2">
+                            <i class="fa-solid fa-cart-shopping"></i> add to cart
+                          </span>
+                         <span class="icon_product"><i class="fa-regular fa-heart"></i></span>
+                    </div>
+                </div>
+
+
+
+                 <div class="swiper-slide product">
+                            <span class="sale_present">80%</span>
+                            <div class="img_product">
+                              <a href="#"><img src="assets/images/53.jpg" alt="" /></a>
+                            </div>
+                    
+                           <div class="stars">
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                            </div>
+                    
+                        <p class="name_product"><a href="#">Level up your street game with this hoodie......</a></p>
+                    
+                        <div class="price">
+                          <p><span>600LE</span></p>
+                          <p class="old_price">500LE</p> 
+                        </div>
+                    
+                    <div class="icons">
+                          <span class="btn_add_cart"data-id="p3" >
+                            <i class="fa-solid fa-cart-shopping"></i> add to cart
+                          </span>
+                         <span class="icon_product"><i class="fa-regular fa-heart"></i></span>
+                    </div>
+                </div>
+
+
+                 <div class="swiper-slide product">
+                            <span class="sale_present">35%</span>
+                            <div class="img_product">
+                              <a href="#"><img src="assets/images/54.jpg" alt="" /></a>
+                            </div>
+                    
+                           <div class="stars">
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                            </div>
+                    
+                        <p class="name_product"><a href="#">Hood on, world off......</a></p>
+                    
+                        <div class="price">
+                          <p><span>700LE</span></p>
+                          <p class="old_price">900LE</p> 
+                        </div>
+                    
+                    <div class="icons">
+                          <span class="btn_add_cart"data-id="p4" >
+                            <i class="fa-solid fa-cart-shopping"></i> add to cart
+                          </span>
+                         <span class="icon_product"><i class="fa-regular fa-heart"></i></span>
+                    </div>
+                </div>
+
+
+                 <div class="swiper-slide product">
+                            <span class="sale_present">85%</span>
+                            <div class="img_product">
+                              <a href="#"><img src="assets/images/60.jpg" alt="" /></a>
+                            </div>
+                    
+                           <div class="stars">
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                            </div>
+                    
+                        <p class="name_product"><a href="#">Edgy vibes for the modern explorer......</a></p>
+                    
+                        <div class="price">
+                          <p><span>800LE</span></p>
+                          <p class="old_price">950LE</p> 
+                        </div>
+                    
+                    <div class="icons">
+                          <span class="btn_add_cart" data-id="p5">
+                            <i class="fa-solid fa-cart-shopping"></i> add to cart
+                          </span>
+                         <span class="icon_product"><i class="fa-regular fa-heart"></i></span>
+                    </div>
+                </div>
+
+
+                 <div class="swiper-slide product">
+                            <span class="sale_present">20%</span>
+                            <div class="img_product">
+                              <a href="#"><img src="assets/images/56.jpg" alt="" /></a>
+                            </div>
+                    
+                           <div class="stars">
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                            </div>
+                    
+                        <p class="name_product"><a href="#">Beyond basic, purely iconic......</a></p>
+                    
+                        <div class="price">
+                          <p><span>1000LE</span></p>
+                          <p class="old_price">1800LE</p> 
+                        </div>
+                    
+                    <div class="icons">
+                          <span class="btn_add_cart "data-id="p6" >
+                            <i class="fa-solid fa-cart-shopping"></i> add to cart
+                          </span>
+                         <span class="icon_product"><i class="fa-regular fa-heart"></i></span>
+                    </div>
+                </div>
+
+                        <div class="swiper-slide product">
+                            <span class="sale_present">10%</span>
+                            <div class="img_product">
+                              <a href="#"><img src="assets/images/57.jpg" alt="" /></a>
+                            </div>
+                    
+                           <div class="stars">
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                            </div>
+                    
+                        <p class="name_product"><a href="#">Your new favorite layer for the concrete jungle......</a></p>
+                    
+                        <div class="price">
+                          <p><span>500LE</span></p>
+                          <p class="old_price">1500LE</p> 
+                        </div>
+                    
+                    <div class="icons">
+                          <span class="btn_add_cart "data-id="p7" >
+                            <i class="fa-solid fa-cart-shopping"></i> add to cart
+                          </span>
+                         <span class="icon_product"><i class="fa-regular fa-heart"></i></span>
+                    </div>
+                </div>
+
+
+                <div class="swiper-slide product">
+                            <span class="sale_present">80%</span>
+                            <div class="img_product">
+                              <a href="#"><img src="assets/images/58.jpg" alt="" /></a>
+                            </div>
+                    
+                           <div class="stars">
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                            </div>
+                    
+                        <p class="name_product"><a href="#">Catching vibes, not feelings......</a></p>
+                    
+                        <div class="price">
+                          <p><span>550LE</span></p>
+                          <p class="old_price">650LE</p> 
+                        </div>
+                    
+                    <div class="icons">
+                          <span class="btn_add_cart "data-id="p8" >
+                            <i class="fa-solid fa-cart-shopping"></i> add to cart
+                          </span>
+                         <span class="icon_product"><i class="fa-regular fa-heart"></i></span>
+                    </div>
+                </div>
+
+                <div class="swiper-slide product">
+                            <span class="sale_present">73%</span>
+                            <div class="img_product">
+                              <a href="#"><img src="assets/images/59.jpg" alt="" /></a>
+                            </div>
+                    
+                           <div class="stars">
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                            </div>
+                    
+                        <p class="name_product"><a href="#">The perfect blend of "Cool" and "Cozy.".....</a></p>
+                    
+                        <div class="price">
+                          <p><span>450LE</span></p>
+                          <p class="old_price">800LE</p> 
+                        </div>
+                    
+                    <div class="icons">
+                          <span class="btn_add_cart " data-id="p9">
+                            <i class="fa-solid fa-cart-shopping"></i> add to cart
+                          </span>
+                         <span class="icon_product"><i class="fa-regular fa-heart"></i></span>
+                    </div>
+                </div>
+
+                </div>
+            <div class="swiper-pagination"></div> 
+            <div class="swiper-button-next btn_Swip"></div>
+            <div class="swiper-button-prev btn_Swip"></div>
+            
+        </div>
+    </div>
+         </div>
+
+
+
+             <div class="banners">
+                 <div class="container">
+                    <div class="banners_boxs banner_2_img">
+                        <a href="#" class="box"><img src="assets/images/100.webp" alt=""></a>
+                        <a href="#" class="box"><img src="assets/images/101.jpeg" alt=""></a>
+
+                    </div>
+                 </div>
+            </div>
+
+
+
+
+                          <div class="slider_products slide">
+                               <div class="container">
+                               <div class="slide_product mySwiper">
+                                <div class="top_slide">
+                                  <h2><i class="fa-solid fa-tags"></i>Cool Kids & Youth</h2>
+                                </div>
+            
+                            <div class="products swiper-wrapper" id="swiper_kids">
+                
+
+                 <div class="swiper-slide product">
+                            <span class="sale_present">95%</span>
+                            <div class="img_product">
+                              <a href="#"><img src="assets/images/70.jpg" alt="" /></a>
+                            </div>
+                    
+                           <div class="stars">
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             
+                            </div>
+                    
+                        <p class="name_product"><a href="#">Adventure-ready outfits for active play......</a></p>
+                    
+                        <div class="price">
+                          <p><span>450LE</span></p>
+                          <p class="old_price">500LE</p> 
+                        </div>
+                    
+                    <div class="icons">
+                          <span class="btn_add_cart" data-id="c1">
+                            <i class="fa-solid fa-cart-shopping"></i> add to cart
+                          </span>
+                         <span class="icon_product"><i class="fa-regular fa-heart"></i></span>
+                    </div>
+                </div>
+
+
+
+                 <div class="swiper-slide product">
+                            <span class="sale_present">90%</span>
+                            <div class="img_product">
+                              <a href="#"><img src="assets/images/71.jpg" alt="" /></a>
+                            </div>
+                    
+                           <div class="stars">
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                            </div>
+                    
+                        <p class="name_product"><a href="#">Vibrant colors for vibrant personalities.......</a></p>
+                    
+                        <div class="price">
+                          <p><span>250LE</span></p>
+                          <p class="old_price">300LE</p> 
+                        </div>
+                    
+                    <div class="icons">
+                          <span class="btn_add_cart" data-id="c2">
+                            <i class="fa-solid fa-cart-shopping"></i> add to cart
+                          </span>
+                         <span class="icon_product"><i class="fa-regular fa-heart"></i></span>
+                    </div>
+                </div>
+
+
+
+                 <div class="swiper-slide product">
+                            <span class="sale_present">80%</span>
+                            <div class="img_product">
+                              <a href="#"><img src="assets/images/79.jpg" alt="" /></a>
+                            </div>
+                    
+                           <div class="stars">
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                            </div>
+                    
+                        <p class="name_product"><a href="#">Style that keeps up with their energy.......</a></p>
+                    
+                        <div class="price">
+                          <p><span>600LE</span></p>
+                          <p class="old_price">500LE</p> 
+                        </div>
+                    
+                    <div class="icons">
+                          <span class="btn_add_cart"data-id="c3" >
+                            <i class="fa-solid fa-cart-shopping"></i> add to cart
+                          </span>
+                         <span class="icon_product"><i class="fa-regular fa-heart"></i></span>
+                    </div>
+                </div>
+
+
+                 <div class="swiper-slide product">
+                            <span class="sale_present">35%</span>
+                            <div class="img_product">
+                              <a href="#"><img src="assets/images/73.jpg" alt="" /></a>
+                            </div>
+                    
+                           <div class="stars">
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                            </div>
+                    
+                        <p class="name_product"><a href="#">Smart styles for smart kids.......</a></p>
+                    
+                        <div class="price">
+                          <p><span>700LE</span></p>
+                          <p class="old_price">900LE</p> 
+                        </div>
+                    
+                    <div class="icons">
+                          <span class="btn_add_cart"data-id="c4" >
+                            <i class="fa-solid fa-cart-shopping"></i> add to cart
+                          </span>
+                         <span class="icon_product"><i class="fa-regular fa-heart"></i></span>
+                    </div>
+                </div>
+
+
+                 <div class="swiper-slide product">
+                            <span class="sale_present">85%</span>
+                            <div class="img_product">
+                              <a href="#"><img src="assets/images/74.jpg" alt="" /></a>
+                            </div>
+                    
+                           <div class="stars">
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                            </div>
+                    
+                        <p class="name_product"><a href="#">Every girl deserves to feel like a princess.......</a></p>
+                    
+                        <div class="price">
+                          <p><span>800LE</span></p>
+                          <p class="old_price">950LE</p> 
+                        </div>
+                    
+                    <div class="icons">
+                          <span class="btn_add_cart" data-id="c5">
+                            <i class="fa-solid fa-cart-shopping"></i> add to cart
+                          </span>
+                         <span class="icon_product"><i class="fa-regular fa-heart"></i></span>
+                    </div>
+                </div>
+
+
+                 <div class="swiper-slide product">
+                            <span class="sale_present">20%</span>
+                            <div class="img_product">
+                              <a href="#"><img src="assets/images/75.jpg" alt="" /></a>
+                            </div>
+                    
+                           <div class="stars">
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                            </div>
+                    
+                        <p class="name_product"><a href="#">Twirl-worthy dresses for your little star.......</a></p>
+                    
+                        <div class="price">
+                          <p><span>1000LE</span></p>
+                          <p class="old_price">1800LE</p> 
+                        </div>
+                    
+                    <div class="icons">
+                          <span class="btn_add_cart " data-id="c6">
+                            <i class="fa-solid fa-cart-shopping"></i> add to cart
+                          </span>
+                         <span class="icon_product"><i class="fa-regular fa-heart"></i></span>
+                    </div>
+                </div>
+
+                        <div class="swiper-slide product">
+                            <span class="sale_present">10%</span>
+                            <div class="img_product">
+                              <a href="#"><img src="assets/images/76.jpg" alt="" /></a>
+                            </div>
+                    
+                           <div class="stars">
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                            </div>
+                    
+                        <p class="name_product"><a href="#">Elegance starts young.......</a></p>
+                    
+                        <div class="price">
+                          <p><span>500LE</span></p>
+                          <p class="old_price">1500LE</p> 
+                        </div>
+                    
+                    <div class="icons">
+                          <span class="btn_add_cart " data-id="c7">
+                            <i class="fa-solid fa-cart-shopping"></i> add to cart
+                          </span>
+                         <span class="icon_product"><i class="fa-regular fa-heart"></i></span>
+                    </div>
+                </div>
+
+
+                <div class="swiper-slide product">
+                            <span class="sale_present">80%</span>
+                            <div class="img_product">
+                              <a href="#"><img src="assets/images/77.jpg" alt="" /></a>
+                            </div>
+                    
+                           <div class="stars">
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                            </div>
+                    
+                        <p class="name_product"><a href="#">Magical outfits for magical moments.......</a></p>
+                    
+                        <div class="price">
+                          <p><span>550LE</span></p>
+                          <p class="old_price">650LE</p> 
+                        </div>
+                    
+                    <div class="icons">
+                          <span class="btn_add_cart " data-id="c8">
+                            <i class="fa-solid fa-cart-shopping"></i> add to cart
+                          </span>
+                         <span class="icon_product"><i class="fa-regular fa-heart"></i></span>
+                    </div>
+                </div>
+
+                <div class="swiper-slide product">
+                            <span class="sale_present">73%</span>
+                            <div class="img_product">
+                              <a href="#"><img src="assets/images/78.jpg" alt="" /></a>
+                            </div>
+                    
+                           <div class="stars">
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                            </div>
+                    
+                        <p class="name_product"><a href="#">Designed for the leaders of tomorrow......</a></p>
+                    
+                        <div class="price">
+                          <p><span>450LE</span></p>
+                          <p class="old_price">800LE</p> 
+                        </div>
+                    
+                    <div class="icons">
+                          <span class="btn_add_cart " data-id="c9">
+                            <i class="fa-solid fa-cart-shopping"></i> add to cart
+                          </span>
+                         <span class="icon_product"><i class="fa-regular fa-heart"></i></span>
+                    </div>
+                </div>
+
+                </div>
+            <div class="swiper-pagination"></div> 
+            <div class="swiper-button-next btn_Swip"></div>
+            <div class="swiper-button-prev btn_Swip"></div>
+            
+        </div>
+    </div>
+         </div>
+
+
+
+
+                 <div class="slider_products slide">
+                               <div class="container">
+                               <div class="slide_product mySwiper">
+                                <div class="top_slide">
+                                  <h2><i class="fa-solid fa-tags"></i>Abayas</h2>
+                                </div>
+            
+                            <div class="products swiper-wrapper" id="swiper_Abayas">
+                
+
+                 <div class="swiper-slide product">
+                            <span class="sale_present">55%</span>
+                            <div class="img_product">
+                              <a href="#"><img src="assets/images/91.jpg" alt="" /></a>
+                            </div>
+                    
+                           <div class="stars">
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                            </div>
+                    
+                        <p class="name_product"><a href="#">The perfect pair of jeans is a life changer....</a></p>
+                    
+                        <div class="price">
+                          <p><span>400LE</span></p>
+                          <p class="old_price">500LE</p> 
+                        </div>
+                    
+                    <div class="icons">
+                          <span class="btn_add_cart" data-id="a1">
+                            <i class="fa-solid fa-cart-shopping"></i> add to cart
+                          </span>
+                         <span class="icon_product"><i class="fa-regular fa-heart"></i></span>
+                    </div>
+                </div>
+
+
+
+                 <div class="swiper-slide product">
+                            <span class="sale_present">66%</span>
+                            <div class="img_product">
+                              <a href="#"><img src="assets/images/81.jpg" alt="" /></a>
+                            </div>
+                    
+                           <div class="stars">
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                            </div>
+                    
+                        <p class="name_product"><a href="#">Denim that fits like a second skin.....</a></p>
+                    
+                        <div class="price">
+                          <p><span>220LE</span></p>
+                          <p class="old_price">300LE</p> 
+                        </div>
+                    
+                    <div class="icons">
+                          <span class="btn_add_cart" data-id="a2">
+                            <i class="fa-solid fa-cart-shopping"></i> add to cart
+                          </span>
+                         <span class="icon_product"><i class="fa-regular fa-heart"></i></span>
+                    </div>
+                </div>
+
+
+
+                 <div class="swiper-slide product">
+                            <span class="sale_present">77%</span>
+                            <div class="img_product">
+                              <a href="#"><img src="assets/images/82.jpg" alt="" /></a>
+                            </div>
+                    
+                           <div class="stars">
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                            </div>
+                    
+                        <p class="name_product"><a href="#">Your search for the ultimate fit ends here.....</a></p>
+                    
+                        <div class="price">
+                          <p><span>450LE</span></p>
+                          <p class="old_price">500LE</p> 
+                        </div>
+                    
+                    <div class="icons">
+                          <span class="btn_add_cart" data-id="a3">
+                            <i class="fa-solid fa-cart-shopping"></i> add to cart
+                          </span>
+                         <span class="icon_product"><i class="fa-regular fa-heart"></i></span>
+                    </div>
+                </div>
+
+
+                 <div class="swiper-slide product">
+                            <span class="sale_present">35%</span>
+                            <div class="img_product">
+                              <a href="#"><img src="assets/images/92.jpg" alt="" /></a>
+                            </div>
+                    
+                           <div class="stars">
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                            </div>
+                    
+                        <p class="name_product"><a href="#">From morning coffee to late-night vibes in our premium denim.....</a></p>
+                    
+                        <div class="price">
+                          <p><span>700LE</span></p>
+                          <p class="old_price">900LE</p> 
+                        </div>
+                    
+                    <div class="icons">
+                          <span class="btn_add_cart"data-id="a4" >
+                            <i class="fa-solid fa-cart-shopping"></i> add to cart
+                          </span>
+                         <span class="icon_product"><i class="fa-regular fa-heart"></i></span>
+                    </div>
+                </div>
+
+
+                 <div class="swiper-slide product">
+                            <span class="sale_present">85%</span>
+                            <div class="img_product">
+                              <a href="#"><img src="assets/images/84.jpg" alt="" /></a>
+                            </div>
+                    
+                           <div class="stars">
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                            </div>
+                    
+                        <p class="name_product"><a href="#">Good jeans, good mood, good day.....</a></p>
+                    
+                        <div class="price">
+                          <p><span>800LE</span></p>
+                          <p class="old_price">950LE</p> 
+                        </div>
+                    
+                    <div class="icons">
+                          <span class="btn_add_cart"data-id="a5" >
+                            <i class="fa-solid fa-cart-shopping"></i> add to cart
+                          </span>
+                         <span class="icon_product"><i class="fa-regular fa-heart"></i></span>
+                    </div>
+                </div>
+
+
+                 <div class="swiper-slide product">
+                            <span class="sale_present">80%</span>
+                            <div class="img_product">
+                              <a href="#"><img src="assets/images/97.jpg" alt="" /></a>
+                            </div>
+                    
+                           <div class="stars">
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                            </div>
+                    
+                        <p class="name_product"><a href="#">Softness you have to feel to believe.....</a></p>
+                    
+                        <div class="price">
+                          <p><span>1000LE</span></p>
+                          <p class="old_price">1200LE</p> 
+                        </div>
+                    
+                    <div class="icons">
+                          <span class="btn_add_cart " data-id="a6">
+                            <i class="fa-solid fa-cart-shopping"></i> add to cart
+                          </span>
+                         <span class="icon_product"><i class="fa-regular fa-heart"></i></span>
+                    </div>
+                </div>
+
+                        <div class="swiper-slide product">
+                            <span class="sale_present">70%</span>
+                            <div class="img_product">
+                              <a href="#"><img src="assets/images/86.jpg" alt="" /></a>
+                            </div>
+                    
+                           <div class="stars">
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                            </div>
+                    
+                        <p class="name_product"><a href="#">Relaxation has never looked this good.....</a></p>
+                    
+                        <div class="price">
+                          <p><span>500LE</span></p>
+                          <p class="old_price">650LE</p> 
+                        </div>
+                    
+                    <div class="icons">
+                          <span class="btn_add_cart " data-id="a7">
+                            <i class="fa-solid fa-cart-shopping"></i> add to cart
+                          </span>
+                         <span class="icon_product"><i class="fa-regular fa-heart"></i></span>
+                    </div>
+                </div>
+
+
+                <div class="swiper-slide product">
+                            <span class="sale_present">80%</span>
+                            <div class="img_product">
+                              <a href="#"><img src="assets/images/90.jpg" alt="" /></a>
+                            </div>
+                    
+                           <div class="stars">
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                            </div>
+                    
+                        <p class="name_product"><a href="#">Sleep in them, gym in them, live in them.....</a></p>
+                    
+                        <div class="price">
+                          <p><span>550LE</span></p>
+                          <p class="old_price">650LE</p> 
+                        </div>
+                    
+                    <div class="icons">
+                          <span class="btn_add_cart "data-id="a8" >
+                            <i class="fa-solid fa-cart-shopping"></i> add to cart
+                          </span>
+                         <span class="icon_product"><i class="fa-regular fa-heart"></i></span>
+                    </div>
+                </div>
+
+                <div class="swiper-slide product">
+                            <span class="sale_present">86%</span>
+                            <div class="img_product">
+                              <a href="#"><img src="assets/images/88.jpg" alt="" /></a>
+                            </div>
+                    
+                           <div class="stars">
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                            </div>
+                    
+                        <p class="name_product"><a href="#">Upgrade your lounge game.....</a></p>
+                    
+                        <div class="price">
+                          <p><span>450LE</span></p>
+                          <p class="old_price">500LE</p> 
+                        </div>
+                    
+                    <div class="icons">
+                          <span class="btn_add_cart " data-id="a9">
+                            <i class="fa-solid fa-cart-shopping"></i> add to cart
+                          </span>
+                         <span class="icon_product"><i class="fa-regular fa-heart"></i></span>
+                    </div>
+                </div>
+
+                </div>
+            <div class="swiper-pagination"></div> 
+            <div class="swiper-button-next btn_Swip"></div>
+            <div class="swiper-button-prev btn_Swip"></div>
+            
+        </div>
+    </div>
+         </div>
+
+
+
+
+
+
+
+
+
+</div> <!-- End home-view -->
+
+<footer id="main-footer">
+                                     <div class="container">
+                                     <div class="big_row">
+                                     <img class="logo_footer" src="assets/images/12.jpg" alt="">
+                                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi, vero?</p>
+                                    <div class="icons_footer">
+                                    <a href="#"><i class="fa-solid fa-phone"></i></a>
+                                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                                   </div>
+                                   </div>
+
+
+
+                                   <div class="row">
+                                      <h4>Find It Fast</h4>
+                                        <div class="links">
+                                            <a href="#"><i class="fa-solid fa-caret-right"></i>ABAYAS</a>
+                                            <a href="#"><i class="fa-solid fa-caret-right"></i> Cool Kids & Youth</a>
+                                            <a href="#"><i class="fa-solid fa-caret-right"></i>Pants</a>
+                                            <a href="#"><i class="fa-solid fa-caret-right"></i>Hoodies</a>
+                                        </div>
+                                   </div>
+
+
+
+                                     <div class="row">
+                                      <h4>Quick Links</h4>
+                                        <div class="links">
+                                            <a href="#"><i class="fa-solid fa-caret-right"></i> Your Account</a>
+                                            <a href="#"><i class="fa-solid fa-caret-right"></i> Returns & Exchanges</a>
+                                            <a href="#"><i class="fa-solid fa-caret-right"></i> Shipping & Delivery</a>
+                                            <a href="#"><i class="fa-solid fa-caret-right"></i> Estimated Delivery Time</a>
+                                            <a href="#"><i class="fa-solid fa-caret-right"></i> purchase History</a>
+                                        </div>
+                                   </div>
+
+
+
+                                    <div class="row">
+                                      <h4>Find It Fast</h4>
+                                        <div class="links">
+                                            <a href="#"><i class="fa-solid fa-caret-right"></i>Support Center</a>
+                                            <a href="#"><i class="fa-solid fa-caret-right"></i> term & Conditions</a>
+                                            <a href="#"><i class="fa-solid fa-caret-right"></i>privacy policy</a>
+                                            <a href="#"><i class="fa-solid fa-caret-right"></i>Help</a>
+                                            <a href="#"><i class="fa-solid fa-caret-right"></i> FAQS</a>
+                                        </div>
+                                   </div>
+
+
+
+
+
+                                   </div>
+
+                                         <div class="bottom_footer">
+                                         <div class="container">
+                                         <p>&copy; <span>El 3yashi Store.</span> All Rights Reserved.</p>
+            
+                                        <div class="payment_img">
+                                       <img src="assets/images/102.png" alt="">
+                                       </div>
+                                       </div>
+                                       </div>
+                                    
+</footer>
+
+<div id="checkout-view" style="display:none;">
+<section class="checkout">
+    <form id="form_contact">
+        <div class="container">
+            <div class="ordersummary">
+                <h1>Order Summary</h1>
+
+                <div class="items" id="checkout_items">
+                    <!-- Items will be injected by main.js -->
+                </div> 
+
+                <div class="bottom_summary">
+                    <div class="shop_table">
+                        <p>Subtotal :</p>
+                        <span class="subtotal_checkout">0.00 LE</span>
+                    </div>
+
+                    <div class="shop_table">
+                        <p>Shipping :</p>
+                        <span>20.00 LE</span>
+                    </div>
+
+                    <div class="shop_table">
+                        <p>Total :</p>
+                        <span class="total_checkout">0.00 LE</span>
+                    </div>
+
+                    <div class="button_div">
+                        <button type="submit">Place order</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="input_info">
+                <div class="address">
+                    <h2>Delivery Address</h2>
+
+                    <div class="inputs">
+                        <label for="">Email</label>
+                        <input type="email" placeholder="Enter your email" name="Email" required>
+
+                        <label for="">Name</label>
+                        <input type="text" placeholder="enter your name" name="Name" required>
+
+                        <label for="">Address</label>
+                        <input type="text" placeholder="enter your address" name="Address" required>
+
+                        <label for="">Phone</label>
+                        <input type="number" placeholder="enter your phone" name="Phone" required>
+                    </div>
+                </div>
+
+                <div class="coupon">
+                    <h2>Coupon Code</h2>
+                    <div class="inputs"> 
+                        <label for="">Coupon code</label>
+                        <input type="text" placeholder="enter your coupon code">
+                    </div>
+                    <div class="btn_coupon">
+                        <button type="button">Apply Coupon</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</section>
+</div>
+
+<div id="dashboard-view" style="display:none;">
+    <div class="dashboard-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <h2><i class="fa-solid fa-bolt"></i> Admin Panel</h2>
+            </div>
+            <ul class="sidebar-menu">
+                <li class="active" onclick="switchTab('overview')"><i class="fa-solid fa-chart-pie"></i> Overview</li>
+                <li onclick="switchTab('orders')"><i class="fa-solid fa-cart-shopping"></i> Orders</li>
+                <li onclick="switchTab('products')"><i class="fa-solid fa-box-open"></i> Products</li>
+                <li><a href="#" onclick="navigateTo('home'); return false;" style="color: inherit; text-decoration: none;"><i class="fa-solid fa-store"></i> View Store</a></li>
+            </ul>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <header class="top-header">
+                <h1>Dashboard</h1>
+                <div class="user-info">
+                    <span>Admin</span>
+                    <i class="fa-solid fa-circle-user"></i>
+                    <button onclick="adminLogout()">Logout <i class="fa-solid fa-right-from-bracket"></i></button>
+                </div>
+            </header>
+
+            <!-- Overview Section -->
+            <section id="overview" class="tab-content active">
+                <div class="metrics-grid">
+                    <div class="metric-card">
+                        <div class="metric-icon"><i class="fa-solid fa-bag-shopping"></i></div>
+                        <div class="metric-info">
+                            <h3>Total Orders</h3>
+                            <p id="total-orders-count">0</p>
+                        </div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-icon"><i class="fa-solid fa-money-bill-trend-up"></i></div>
+                        <div class="metric-info">
+                            <h3>Total Revenue</h3>
+                            <p id="total-revenue-count">0 LE</p>
+                        </div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-icon"><i class="fa-solid fa-boxes-stacked"></i></div>
+                        <div class="metric-info">
+                            <h3>Total Products</h3>
+                            <p id="total-products-count">12</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="recent-orders">
+                    <h2>Recent Orders</h2>
+                    <div class="table-responsive">
+                        <table class="dashboard-table">
+                            <thead>
+                                <tr>
+                                    <th>Order ID</th>
+                                    <th>Customer</th>
+                                    <th>Date</th>
+                                    <th>Total Items</th>
+                                    <th>Total Price</th>
+                                    <th>Status</th>
+                                </tr>
+                            </thead>
+                            <tbody id="recent-orders-body">
+                                <!-- Filled via JS -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Orders Section -->
+            <section id="orders" class="tab-content">
+                <h2>All Orders</h2>
+                <div class="table-responsive">
+                    <table class="dashboard-table">
+                        <thead>
+                            <tr>
+                                <th>Order ID</th>
+                                <th>Customer</th>
+                                <th>Date</th>
+                                <th>Items</th>
+                                <th>Total Price</th>
+                                <th>Status</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody id="all-orders-body">
+                            <!-- Filled via JS -->
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <!-- Products Section -->
+            <section id="products" class="tab-content">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+                    <h2>Products List</h2>
+                    <button class="btn-primary" onclick="openAddProductModal()"><i class="fa-solid fa-plus"></i> Add Product</button>
+                </div>
+                <div class="table-responsive">
+                    <table class="dashboard-table">
+                        <thead>
+                            <tr>
+                                <th>Image</th>
+                                <th>Name</th>
+                                <th>Price</th>
+                                <th>Stock Status</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody id="products-body">
+                            <!-- Filled via JS -->
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+        </main>
+    </div>
+
+    <!-- Order Details Modal -->
+    <div id="order-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal" onclick="closeOrderModal()">&times;</span>
+            <h2>Order Details <span id="modal-order-id"></span></h2>
+            <div id="modal-order-items" class="modal-items-list">
+                <!-- Items list -->
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+           <!-- Swiper JS -->
+           <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+                 <!-- file js -->
+                 <script src="js/default_products.js"></script>
+                 <script src="js/main.js"></script>
+                 <script src="js/swiper.js"></script>
+                 <script src="js/dashboard.js"></script>
+                 
+        <script>
+            function navigateTo(view) {
+                document.getElementById('home-view').style.display = 'none';
+                document.getElementById('checkout-view').style.display = 'none';
+                document.getElementById('dashboard-view').style.display = 'none';
+                document.getElementById('main-header').style.display = 'none';
+                document.getElementById('main-footer').style.display = 'none';
+
+                document.getElementById(view + '-view').style.display = 'block';
+
+                if(view === 'home' || view === 'checkout') {
+                    document.getElementById('main-header').style.display = 'block';
+                    document.getElementById('main-footer').style.display = 'block';
+                    document.body.style.paddingTop = ''; // Restore original padding
+                } else {
+                    document.body.style.paddingTop = '0'; // Remove padding for dashboard
+                }
+
+                // If navigating to dashboard, load data
+                if(view === 'dashboard') {
+                    if (localStorage.getItem('isAdminLoggedIn') !== 'true') {
+                        navigateTo('home');
+                        return;
+                    }
+                    if(typeof loadDashboardData === 'function') loadDashboardData();
+                    if(typeof loadDummyProducts === 'function') loadDummyProducts();
+                }
+
+                window.scrollTo(0, 0);
+            }
+
+            function adminLogout() {
+                localStorage.removeItem('isAdminLoggedIn');
+                navigateTo('home');
+            }
+        </script>
+
+        <!-- Admin Login Modal -->
+        <div id="adminLoginModal" style="display:none; position:fixed; z-index:9999; left:0; top:0; width:100%; height:100%; background:rgba(0,0,0,0.6); align-items:center; justify-content:center;">
+            <div style="background:#fff; padding:30px; border-radius:10px; width:90%; max-width:400px; position:relative; box-shadow:0 10px 25px rgba(0,0,0,0.2);">
+                <span onclick="closeAdminLogin()" style="position:absolute; top:15px; right:20px; font-size:24px; cursor:pointer; color:#888;">&times;</span>
+                <h2 style="margin-bottom:20px; color:#2c3e50; text-align:center;">Admin Login</h2>
+                <form id="adminLoginForm" onsubmit="handleAdminLogin(event)">
+                    <div style="margin-bottom:15px;">
+                        <label style="display:block; margin-bottom:5px; color:#555;">Email</label>
+                        <input type="email" id="adminEmail" required style="width:100%; padding:10px; border:1px solid #ccc; border-radius:5px; box-sizing:border-box;">
+                    </div>
+                    <div style="margin-bottom:20px;">
+                        <label style="display:block; margin-bottom:5px; color:#555;">Password</label>
+                        <input type="password" id="adminPassword" required style="width:100%; padding:10px; border:1px solid #ccc; border-radius:5px; box-sizing:border-box;">
+                    </div>
+                    <button type="submit" style="width:100%; padding:12px; background:#3498db; color:white; border:none; border-radius:5px; font-size:16px; cursor:pointer; font-weight:bold;">Login to Dashboard</button>
+                    <p id="adminLoginError" style="color:red; text-align:center; margin-top:10px; display:none;">Invalid Email or Password</p>
+                </form>
+            </div>
+        </div>
+
+        <script>
+            function openAdminLogin(e) {
+                if(e) e.preventDefault();
+                document.getElementById('adminLoginModal').style.display = 'flex';
+            }
+            function closeAdminLogin() {
+                document.getElementById('adminLoginModal').style.display = 'none';
+                document.getElementById('adminLoginError').style.display = 'none';
+            }
+            function handleAdminLogin(e) {
+                e.preventDefault();
+                const email = document.getElementById('adminEmail').value;
+                const password = document.getElementById('adminPassword').value;
+                
+                if(email === 'admin@gmail.com' && password === '123456') {
+                    localStorage.setItem('isAdminLoggedIn', 'true');
+                    closeAdminLogin();
+                    navigateTo('dashboard');
+                } else {
+                    document.getElementById('adminLoginError').style.display = 'block';
+                }
+            }
+        </script>
+
+        <!-- Custom Alert Modal -->
+        <div id="customAlertModal" style="display:none; position:fixed; z-index:10000; left:0; top:0; width:100%; height:100%; background:rgba(0,0,0,0.5); align-items:center; justify-content:center; backdrop-filter: blur(5px);">
+            <div style="background:#fff; padding:30px; border-radius:15px; width:90%; max-width:350px; text-align:center; box-shadow:0 10px 30px rgba(0,0,0,0.2); transform: scale(0.9); animation: scaleUp 0.3s forwards;">
+                <i class="fa-solid fa-circle-check" style="font-size: 50px; color: #2ecc71; margin-bottom: 20px;"></i>
+                <h3 id="customAlertTitle" style="margin-bottom:15px; color:#2c3e50; font-size:1.4rem;">Message</h3>
+                <p id="customAlertMessage" style="color:#666; margin-bottom:25px; line-height:1.5;">Alert text goes here</p>
+                <button onclick="closeCustomAlert()" style="background:#3498db; color:white; border:none; padding:10px 25px; border-radius:8px; font-size:1rem; cursor:pointer; transition:background 0.3s;">OK</button>
+            </div>
+        </div>
+        <style>
+            @keyframes scaleUp {
+                to { transform: scale(1); }
+            }
+        </style>
+        <script>
+            function showCustomAlert(msg, type = 'success') {
+                document.getElementById('customAlertMessage').innerText = msg;
+                const icon = document.querySelector('#customAlertModal .fa-solid');
+                const title = document.getElementById('customAlertTitle');
+                if (type === 'success') {
+                    icon.className = 'fa-solid fa-circle-check';
+                    icon.style.color = '#2ecc71';
+                    title.innerText = 'Success!';
+                } else if (type === 'info') {
+                    icon.className = 'fa-solid fa-circle-info';
+                    icon.style.color = '#3498db';
+                    title.innerText = 'Information';
+                } else {
+                    icon.className = 'fa-solid fa-circle-exclamation';
+                    icon.style.color = '#e74c3c';
+                    title.innerText = 'Attention';
+                }
+                document.getElementById('customAlertModal').style.display = 'flex';
+            }
+            function closeCustomAlert() {
+                document.getElementById('customAlertModal').style.display = 'none';
+            }
+        </script>
+
+        <!-- Add Product Modal -->
+        <div id="addProductModal" style="display:none; position:fixed; z-index:9999; left:0; top:0; width:100%; height:100%; background:rgba(0,0,0,0.6); align-items:center; justify-content:center;">
+            <div style="background:#fff; padding:30px; border-radius:10px; width:90%; max-width:400px; position:relative; box-shadow:0 10px 25px rgba(0,0,0,0.2);">
+                <span onclick="closeAddProductModal()" style="position:absolute; top:15px; right:20px; font-size:24px; cursor:pointer; color:#888;">&times;</span>
+                <h2 style="margin-bottom:20px; color:#2c3e50; text-align:center;">Add Product</h2>
+                <form id="addProductForm" onsubmit="handleAddProduct(event)">
+                    <div style="margin-bottom:15px;">
+                        <label style="display:block; margin-bottom:5px; color:#555;">Name</label>
+                        <input type="text" id="addProductName" required style="width:100%; padding:10px; border:1px solid #ccc; border-radius:5px; box-sizing:border-box;">
+                    </div>
+                    <div style="margin-bottom:15px;">
+                        <label style="display:block; margin-bottom:5px; color:#555;">Price</label>
+                        <input type="number" id="addProductPrice" required style="width:100%; padding:10px; border:1px solid #ccc; border-radius:5px; box-sizing:border-box;">
+                    </div>
+                    <div style="margin-bottom:15px;">
+                        <label style="display:block; margin-bottom:5px; color:#555;">Image URL</label>
+                        <input type="text" id="addProductImg" required style="width:100%; padding:10px; border:1px solid #ccc; border-radius:5px; box-sizing:border-box;">
+                    </div>
+                    <div style="margin-bottom:20px;">
+                        <label style="display:block; margin-bottom:5px; color:#555;">Category</label>
+                        <input type="text" id="addProductCategory" required style="width:100%; padding:10px; border:1px solid #ccc; border-radius:5px; box-sizing:border-box;">
+                    </div>
+                    <button type="submit" style="width:100%; padding:12px; background:#3498db; color:white; border:none; border-radius:5px; font-size:16px; cursor:pointer; font-weight:bold;">Save Product</button>
+                </form>
+            </div>
+        </div>
+        <script>
+            function openAddProductModal() {
+                document.getElementById('addProductModal').style.display = 'flex';
+            }
+            function closeAddProductModal() {
+                document.getElementById('addProductModal').style.display = 'none';
+            }
+            function handleAddProduct(event) {
+                event.preventDefault();
+                const name = document.getElementById('addProductName').value;
+                const price = document.getElementById('addProductPrice').value;
+                const img = document.getElementById('addProductImg').value;
+                const category = document.getElementById('addProductCategory').value;
+
+                let products = JSON.parse(localStorage.getItem('products'));
+                if (!products || products.length === 0) {
+                    products = (typeof defaultProducts !== 'undefined') ? defaultProducts.slice() : [];
+                }
+                
+                products.push({
+                    id: "prod_" + Date.now(),
+                    name: name,
+                    price: price,
+                    img: img,
+                    category: category,
+                    stock: "In Stock"
+                });
+                
+                localStorage.setItem('products', JSON.stringify(products));
+                closeAddProductModal();
+                if(typeof loadDummyProducts === 'function') loadDummyProducts();
+                document.getElementById('addProductForm').reset();
+            }
+        </script>
+
+  
+    </body>
+</html>
