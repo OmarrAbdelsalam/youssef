@@ -1187,3 +1187,6 @@ footer .bottom_footer .payment_img {
     body { padding-top: 200px; }
     .banners_4 .container .box { width: 47%; }
 }
+
+.product .icons .icon_product.active-fav i { color: #ff0000 !important; }
+.product .icons .icon_product.active-fav { border-color: #ff0000; }

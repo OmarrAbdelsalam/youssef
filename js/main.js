@@ -326,6 +326,8 @@ function renderProducts(products) {
         if (containers[key]) containers[key].innerHTML = '';
     }
 
+    let favs = JSON.parse(localStorage.getItem('favorites')) || [];
+
     products.forEach(p => {
         let container = containers[p.category];
         if (!container) return;
@@ -333,7 +335,11 @@ function renderProducts(products) {
         let oldPriceHtml = p.oldPrice ? `<p class="old_price">${p.oldPrice} LE</p>` : '';
         let saleTagHtml = p.oldPrice ? `<span class="sale_present">Sale</span>` : '';
 
-        let productHtml = `
+                let isFav = favs.includes(p.id);
+                let heartClass = isFav ? 'fa-solid fa-heart' : 'fa-regular fa-heart';
+                let activeClass = isFav ? 'active-fav' : '';
+
+                let productHtml = `
             <div class="swiper-slide product">
                 ${saleTagHtml}
                 <div class="img_product">
@@ -355,7 +361,7 @@ function renderProducts(products) {
                     <span class="btn_add_cart" data-id="${p.id}">
                         <i class="fa-solid fa-cart-shopping"></i> add to cart
                     </span>
-                    <span class="icon_product"><i class="fa-regular fa-heart"></i></span>
+                    <span class="icon_product ${activeClass}" onclick="toggleFavorite(this, '${p.id}')"><i class="${heartClass}"></i></span>
                 </div>
             </div>
         `;
@@ -405,3 +411,23 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 });
+
+// Toggle favorite product functionality
+window.toggleFavorite = function(element, productId) {
+    let favs = JSON.parse(localStorage.getItem('favorites')) || [];
+    let icon = element.querySelector('i');
+    
+    if (favs.includes(productId)) {
+        // Remove
+        favs = favs.filter(id => id !== productId);
+        icon.className = 'fa-regular fa-heart';
+        element.classList.remove('active-fav');
+    } else {
+        // Add
+        favs.push(productId);
+        icon.className = 'fa-solid fa-heart';
+        element.classList.add('active-fav');
+    }
+    
+    localStorage.setItem('favorites', JSON.stringify(favs));
+};
