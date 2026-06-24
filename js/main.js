@@ -290,11 +290,13 @@ document.addEventListener('submit', (e) => {
 
 function initStoreProducts() {
     let storedProducts = localStorage.getItem('products');
-    if (!storedProducts) {
+    let products = storedProducts ? JSON.parse(storedProducts) : null;
+    
+    // Force reset if user has stale or empty data (less than 40 products)
+    if (!products || products.length < 40) {
+        products = defaultProducts;
         localStorage.setItem('products', JSON.stringify(defaultProducts));
-        storedProducts = JSON.stringify(defaultProducts);
     }
-    const products = JSON.parse(storedProducts);
 
     // Auto-update old image paths in localStorage
     let updated = false;
